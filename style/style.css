@@ -1,0 +1,309 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body
+{
+    width: 100;
+    height: 100;
+}
+
+body
+{
+    background-color: #f1f1f1;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+
+#headerI{
+    padding: 42px 25px;
+}
+
+#headerI h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+#headerI p
+{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.txtBox
+{
+    background-color: #000;
+    color: #f1f1f1;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+#mainI{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#section1M{
+    padding: 10px 0;
+}
+
+
+
+.cards{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    
+}
+
+.cards img{
+    width: 100%;
+    height: 100%;
+}
+
+.cards h3{
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.cards h5{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.cards > h5 > span
+{
+    opacity: 0.60;
+}
+
+.cards > p{
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 20px 10px;
+}
+
+.buttonsC{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnC{
+    display: inline-block;
+    padding: 12px 24px;
+    overflow: hidden;
+    cursor: pointer;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    color: #000;
+    font-size: 15px;
+
+}
+
+.btnC:hover{
+    background-color: #ccc;
+
+}
+
+.buttonC > p
+{
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: bold;
+}   
+
+.buttonsC > p > span
+{
+    background-color: #000;
+    color: #f1f1f1;
+    display: inline-block;
+    padding: 0 8px;
+    margin-left: 12px;
+    text-align: center;
+}
+
+.boxCircle{
+    border-radius: 50%;
+
+}
+
+#mainPerfil{
+    text-transform: none;
+    
+}
+
+#section2M{
+    padding: 5px 0;
+}
+
+.cards2{
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-bottom: 40px;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+.cards2 > h3
+{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 12px 24px;
+    background-color: rgb(231, 230, 230);
+    
+}
+
+.itemc2{
+    padding: 20px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.itemc2 > img{
+    width: 70px;
+    height: 70px;
+}
+
+.itemc2 > div
+{
+    margin-left: 15px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.itemc2 > div > h3 
+{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.itemc2 > div > p 
+{
+    font-size: 15px;
+}
+
+.itemc2:nth-child(5)
+{
+    display: none;
+}
+
+.boxitemsc2{
+    padding: 20px;
+}
+
+.boxitemsc2 > span 
+{
+    font-size: 12px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    background-color: rgb(231, 230, 230);
+}
+
+.boxitemsc2 > span:nth-child(1){
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 0 10px;
+    background-color: #000;
+}
+
+#footerI{
+    background-color: #616161;
+    color: #fff;
+    padding: 32px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.buttonsFI > button
+{
+    display: inline-block;
+    overflow: hidden;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    border: none;
+    vertical-align: middle;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 16px;
+
+} 
+
+.buttonsFI > button:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+
+.buttonsFI > .acceso1
+{
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+.buttonsFI > .acceso2
+{
+    cursor: pointer;
+}
+
+#footerI > p {
+    margin: 16px 0;
+}
+
+#footerI > p > a
+{
+    color: inherit;
+}
+@media screen and (min-width: 1200px) 
+{
+    #mainI{
+        flex-direction: row;
+        width: 75%;
+    }
+
+    #section1M{
+        width: 65%;
+        margin-right: 25px;
+    }
+
+    #section2M{
+        width: 35%;
+        padding: 10px 0;
+    }
+
+    .itemc2:nth-child(5)
+    {
+        display: flex;
+    }
+
+}
+
